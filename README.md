@@ -4,9 +4,9 @@ Simple palette shader to color a grayscale texture using a sprite acting as a pa
 
 # Uniforms
 
-u_palettePixelW: Width of a texel on the palette texture (result of texture_get_texel_width)
+u_palettePixelW: Width of a texel on the palette texture
 
-u_palettePixelH: Height of a texel on the palette texture (texture_get_texel_height)
+u_palettePixelH: Height of a texel on the palette texture
 
 u_paletteLine: Row of pixels to sample color from on the palette
 
